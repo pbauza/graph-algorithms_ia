@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b76d83-e819-49c2-8de4-b9530b5d1fd6" name="Default Changelist" comment="" />
+    <list default="true" id="54b76d83-e819-49c2-8de4-b9530b5d1fd6" name="Default Changelist" comment="prova commit">
+      <changelist_data />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +19,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/pbauza/PRACTICAS_IA.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1YDcKFslMFokw3yjyaF890VXSyf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,7 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests for TestCases.TestCases">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -117,39 +131,83 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="2376" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582491031002">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582491031002" />
-    <state x="1059" y="274" key="FileChooserDialogImpl" timestamp="1582487079233">
+    <state x="92" y="92" width="2376" height="856" key="DiffContextDialog" timestamp="1582510693486">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582487079233" />
+    <state x="92" y="92" width="2376" height="856" key="DiffContextDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510693486" />
+    <state x="1059" y="274" key="FileChooserDialogImpl" timestamp="1582510051500">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510051500" />
     <state x="1102" y="435" key="Github.CreateGistDialog" timestamp="1582508850475">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1102" y="435" key="Github.CreateGistDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508850475" />
-    <state width="2539" height="360" key="GridCell.Tab.0.bottom" timestamp="1582508833199">
+    <state width="1269" height="360" key="GridCell.Tab.0.bottom" timestamp="1582510120694">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2539" height="360" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833199" />
-    <state width="2539" height="360" key="GridCell.Tab.0.center" timestamp="1582508833198">
+    <state width="1269" height="360" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510120694" />
+    <state width="1269" height="360" key="GridCell.Tab.0.center" timestamp="1582510120694">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2539" height="360" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833198" />
-    <state width="2539" height="360" key="GridCell.Tab.0.left" timestamp="1582508833198">
+    <state width="1269" height="360" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510120694" />
+    <state width="1269" height="360" key="GridCell.Tab.0.left" timestamp="1582510120694">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2539" height="360" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833198" />
-    <state width="2539" height="360" key="GridCell.Tab.0.right" timestamp="1582508833199">
+    <state width="1269" height="360" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510120694" />
+    <state width="1269" height="360" key="GridCell.Tab.0.right" timestamp="1582510120694">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2539" height="360" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833199" />
-    <state x="781" y="162" key="SettingsEditor" timestamp="1582487552619">
+    <state width="1269" height="360" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510120694" />
+    <state x="781" y="162" key="SettingsEditor" timestamp="1582510929047">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582487552619" />
+    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510929047" />
+    <state x="872" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582510363600">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510363600" />
     <state x="975" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582485371611">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
