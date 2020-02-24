@@ -17,15 +17,7 @@ import copy
 
 
 def expand(path, map):
-    path_list = list()
-    for station in map.connections[path.last]:
-        aux = copy.deepcopy(path)
-        aux.add_route(station)
-        path_list.append(aux)
-    print("list:")
-    for i in path_list:
-        print(i.route)
-    return path_list
+
     """
      It expands a SINGLE station and returns the list of class Path.
      Format of the parameter is:
@@ -36,6 +28,15 @@ def expand(path, map):
             path_list (list): List of paths that are connected to the given path.
     """
 
+    path_list = list()
+    for station in map.connections[path.last]:
+        aux = copy.deepcopy(path)
+        aux.add_route(station)
+        path_list.append(aux)
+    print("list:")
+    for i in path_list:
+        print(i.route)
+    return path_list
     pass
 
 
@@ -60,6 +61,7 @@ def remove_cycles(path_list):
 
 
 def insert_depth_first_search(expand_paths, list_of_path):
+
     """
      expand_paths is inserted to the list_of_path according to DEPTH FIRST SEARCH algorithm
      Format of the parameter is:
@@ -69,6 +71,7 @@ def insert_depth_first_search(expand_paths, list_of_path):
         Returns:
             list_of_path (LIST of Path Class): List of Paths where Expanded Path is inserted
     """
+
     pass
 
 

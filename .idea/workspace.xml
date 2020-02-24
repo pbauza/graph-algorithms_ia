@@ -2,9 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b76d83-e819-49c2-8de4-b9530b5d1fd6" name="Default Changelist" comment="prova commit">
-      <changelist_data />
+      <changelist_data name="" email="" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Lib/tcl8.6/init.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_ctypes_test.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_msi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_sqlite3.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_testbuffer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_testcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_testconsole.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_testimportmultiple.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_testmultiphase.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/_tkinter.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/python36.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/tcl86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/tk86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/Scripts/winsound.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_portatil/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/SearchAlgorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/SearchAlgorithm.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +71,19 @@
     </option>
   </component>
   <component name="ProjectId" id="1YDcKFslMFokw3yjyaF890VXSyf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python tests.Unittests for TestCases.TestCases">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -69,6 +111,9 @@
       <module name="Practica1_IA" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -163,28 +208,38 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/PRACTICAS_IA" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="2376" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582491031002">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582491031002" />
-    <state x="934" y="114" key="CommitChangelistDialog2" timestamp="1582511365056">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="560" y="13" key="CommitChangelistDialog2" timestamp="1582548314607">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="560" y="13" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582548314607" />
     <state x="934" y="114" key="CommitChangelistDialog2/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582511365056" />
     <state x="92" y="92" width="2376" height="856" key="DiffContextDialog" timestamp="1582510693486">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="DiffContextDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510693486" />
-    <state x="1059" y="274" key="FileChooserDialogImpl" timestamp="1582510051500">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="635" y="217" key="FileChooserDialogImpl" timestamp="1582556131752">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="635" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582556131752" />
     <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510051500" />
     <state x="1102" y="435" key="Github.CreateGistDialog" timestamp="1582508850475">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -206,17 +261,19 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1269" height="360" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510120694" />
-    <state x="781" y="162" key="SettingsEditor" timestamp="1582510929047">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="469" y="109" key="SettingsEditor" timestamp="1582556217419">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="469" y="109" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582556217419" />
     <state x="781" y="162" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582510929047" />
     <state x="872" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582511421406">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="872" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582511421406" />
-    <state x="975" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582485371611">
-      <screen x="0" y="0" width="2560" height="1040" />
+    <state x="585" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1582548139628">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="585" y="272" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582548139628" />
     <state x="975" y="343" key="com.intellij.ide.util.TipDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582485371611" />
   </component>
 </project>
