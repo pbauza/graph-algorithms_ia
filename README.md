@@ -1,2 +1,1 @@
 # PRACTICAS_IA
-pollas
