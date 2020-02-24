@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54b76d83-e819-49c2-8de4-b9530b5d1fd6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Practica1_IA" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YDcKFslMFokw3yjyaF890VXSyf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for TestCases.TestCases">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Practica1_IA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_IA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestCases.TestCases" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_IA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestCases.TestCases&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for TestCases.TestCases.test_Expand" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Practica1_IA" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestCases.TestCases.test_Expand&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for TestCases.TestCases" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python tests.Unittests for TestCases.TestCases.test_Expand" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b76d83-e819-49c2-8de4-b9530b5d1fd6" name="Default Changelist" comment="" />
+      <created>1582480540366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582480540366</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="2376" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582491031002">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="92" y="92" width="2376" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582491031002" />
+    <state x="1059" y="274" key="FileChooserDialogImpl" timestamp="1582487079233">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1059" y="274" key="FileChooserDialogImpl/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582487079233" />
+    <state x="1102" y="435" key="Github.CreateGistDialog" timestamp="1582508850475">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1102" y="435" key="Github.CreateGistDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508850475" />
+    <state width="2539" height="360" key="GridCell.Tab.0.bottom" timestamp="1582508833199">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="360" key="GridCell.Tab.0.bottom/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833199" />
+    <state width="2539" height="360" key="GridCell.Tab.0.center" timestamp="1582508833198">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="360" key="GridCell.Tab.0.center/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833198" />
+    <state width="2539" height="360" key="GridCell.Tab.0.left" timestamp="1582508833198">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="360" key="GridCell.Tab.0.left/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833198" />
+    <state width="2539" height="360" key="GridCell.Tab.0.right" timestamp="1582508833199">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2539" height="360" key="GridCell.Tab.0.right/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582508833199" />
+    <state x="781" y="162" key="SettingsEditor" timestamp="1582487552619">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582487552619" />
+    <state x="975" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582485371611">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="975" y="343" key="com.intellij.ide.util.TipDialog/0.0.2560.1040/-1920.0.1920.1040/2560.0.1858.1080@0.0.2560.1040" timestamp="1582485371611" />
+  </component>
+</project>
