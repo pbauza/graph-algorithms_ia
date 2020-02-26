@@ -41,7 +41,10 @@ def expand(path, map):
 
 
 def remove_cycles(path_list):
-    for path in path_list:
+
+    aux_path_list = copy.deepcopy(path_list)
+
+    for path in aux_path_list:
         aux_list = []
         for station in path.route:
             if station not in aux_list:
@@ -73,42 +76,10 @@ def insert_depth_first_search(expand_paths, list_of_path):
             list_of_path (LIST of Path Class): List of Paths where Expanded Path is inserted
     """
 
-
-
+    return expand_paths + list_of_path
     pass
 
 def depth_first_search(origin_id, destination_id, map):
-
-    llista = list()
-    llista = [[origin_id]]
-    i = 0
-    while llista[0][len(llista[0])-1] != destination_id and len(llista) != 0:
-        C = llista.pop(0)
-        print("list")
-        print(C)
-        C = Path(C)
-        print("path")
-        print(C.route)
-        E = expand(C, map)
-        E = remove_cycles(E)á
-        if len(llista) == 0:
-            if len(E)!=0:
-                for path in E:
-                    llista.insert(-1, path.route)
-                print('first append: ')
-                print(llista)
-        else:
-            if len(E) != 0:
-                print('falo')
-                for path in E:
-                    llista.insert(0, path.route)
-                print('next append: ')
-                print(llista)
-    if len(llista) != 0:
-        print('finalisao')
-        return Path(llista[0])
-    else:
-        return 'No té solució'
 
     """
      Depth First Search algorithm
@@ -121,7 +92,23 @@ def depth_first_search(origin_id, destination_id, map):
             list_of_path[0] (Path Class): the route that goes from origin_id to destination_id
     """
 
+    llista = [Path(origin_id)]
+    i = 0
+    while llista[0].route[-1] != destination_id and len(llista) != 0:
+        C = llista.pop(0)
+        print("path")
+        print(C.route)
+        E = expand(C, map)
+        E = remove_cycles(E)
+        llista = insert_depth_first_search(E, llista)
 
+        print(llista)
+
+    if (llista is None):
+        return 'No hi ha solució'
+    else:
+        print(llista)
+        return llista[0]
 
     pass
 
@@ -136,6 +123,8 @@ def insert_breadth_first_search(expand_paths, list_of_path):
            Returns:
                list_of_path (LIST of Path Class): List of Paths where Expanded Path is inserted
     """
+
+    return list_of_path + expand_paths
     pass
 
 
@@ -150,6 +139,25 @@ def breadth_first_search(origin_id, destination_id, map):
         Returns:
             list_of_path[0] (Path Class): The route that goes from origin_id to destination_id
     """
+
+    llista = [Path(origin_id)]
+    i = 0
+    while llista[0].route[-1] != destination_id and len(llista) != 0:
+        C = llista.pop(0)
+        print("path")
+        print(C.route)
+        E = expand(C, map)
+        E = remove_cycles(E)
+        llista = insert_breadth_first_search(E, llista)
+
+        print(llista)
+
+    if (llista is None):
+        return 'No hi ha solució'
+    else:
+        print(llista)
+        return llista[0]
+
     pass
 
 
