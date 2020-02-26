@@ -90,7 +90,7 @@ def depth_first_search(origin_id, destination_id, map):
         print("path")
         print(C.route)
         E = expand(C, map)
-        E = remove_cycles(E)
+        E = remove_cycles(E)á
         if len(llista) == 0:
             if len(E)!=0:
                 for path in E:
