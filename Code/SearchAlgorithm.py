@@ -33,9 +33,6 @@ def expand(path, map):
         aux = copy.deepcopy(path)
         aux.add_route(station)
         path_list.append(aux)
-    print("list:")
-    for i in path_list:
-        print(i.route)
     return path_list
     pass
 
@@ -45,21 +42,14 @@ def remove_cycles(path_list):
     aux_path_list = copy.deepcopy(path_list)
 
     for path in aux_path_list:
-        aux_list = []
-        for station in path.route:
-            if station not in aux_list:
-                aux_list.append(station)
-            else:
+        i = 0
+        max = len(path.route)
+        surt = False
+        while surt == False and i < max:
+            if path.route[i] in path.route[i+1:]:
+                surt = True
                 path_list.remove(path)
-
-    #for path in path_list:
-     #   if path.route[-1] in path.route[:-1]:
-      #      path_list.remove(path)
-
-    print("REMOVE")
-    for i in path_list:
-        print(i.route)
-    print("---------")
+            i += 1
     return path_list
     pass
 
@@ -96,18 +86,12 @@ def depth_first_search(origin_id, destination_id, map):
     i = 0
     while llista[0].route[-1] != destination_id and len(llista) != 0:
         C = llista.pop(0)
-        print("path")
-        print(C.route)
         E = expand(C, map)
         E = remove_cycles(E)
         llista = insert_depth_first_search(E, llista)
-
-        print(llista)
-
     if (llista is None):
         return 'No hi ha solució'
     else:
-        print(llista)
         return llista[0]
 
     pass
@@ -144,18 +128,12 @@ def breadth_first_search(origin_id, destination_id, map):
     i = 0
     while llista[0].route[-1] != destination_id and len(llista) != 0:
         C = llista.pop(0)
-        print("path")
-        print(C.route)
         E = expand(C, map)
         E = remove_cycles(E)
         llista = insert_breadth_first_search(E, llista)
-
-        print(llista)
-
     if (llista is None):
         return 'No hi ha solució'
     else:
-        print(llista)
         return llista[0]
 
     pass
