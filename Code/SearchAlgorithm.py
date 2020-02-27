@@ -256,6 +256,33 @@ def coord2station(coord, map):
         Returns:
             possible_origins (list): List of the Indexes of stations, which corresponds to the closest station
     """
+
+    possible_origins = list()
+
+    min = euclidean_dist(coord, [map.stations[1]['x'], map.stations[1]['y']])
+    #print('Mínim [1]', min)
+    #print('Line: ', map.stations[1]['line'])
+    possible_origins = [1]
+    for index in range(2, 14):
+        #print(index)
+        #print('Line: ', map.stations[index]['line'])
+        #print('Coordenades: ', [map.stations[index]['x'], map.stations[index]['y']])
+        min_aux = euclidean_dist(coord, [map.stations[index]['x'], map.stations[index]['y']])
+        #print('Mínim: ', min)
+        if min_aux < min:
+            min = min_aux
+            #print('Mínim més petit: ', min)
+            possible_origins = []
+            #possible_origins = [map.stations[index]['line']]
+            possible_origins = [index]
+            #print('llista origens: ', possible_origins)
+        elif min_aux == min:
+            #print('Mínim igual: ', min)
+            #possible_origins.append(map.stations[index]['line'])
+            possible_origins.append(index)
+            #print('llista origens: ', possible_origins)
+    #print('Final: ', possible_origins)
+    return possible_origins
     pass
 
 
