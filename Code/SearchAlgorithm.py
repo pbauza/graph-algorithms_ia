@@ -17,17 +17,6 @@ import copy
 
 
 def expand(path, map):
-
-    """
-     It expands a SINGLE station and returns the list of class Path.
-     Format of the parameter is:
-        Args:
-            path (object of Path class): Specific path to be expanded
-            map (object of Map class):: All the information needed to expand the node
-        Returns:
-            path_list (list): List of paths that are connected to the given path.
-    """
-
     path_list = list()
     for station in map.connections[path.last]:
         aux = copy.deepcopy(path)
@@ -38,9 +27,7 @@ def expand(path, map):
 
 
 def remove_cycles(path_list):
-
     aux_path_list = copy.deepcopy(path_list)
-
     for path in aux_path_list:
         i = 0
         max = len(path.route)
@@ -55,33 +42,10 @@ def remove_cycles(path_list):
 
 
 def insert_depth_first_search(expand_paths, list_of_path):
-
-    """
-     expand_paths is inserted to the list_of_path according to DEPTH FIRST SEARCH algorithm
-     Format of the parameter is:
-        Args:
-            expand_paths (LIST of Path Class): Expanded paths
-            list_of_path (LIST of Path Class): The paths to be visited
-        Returns:
-            list_of_path (LIST of Path Class): List of Paths where Expanded Path is inserted
-    """
-
     return expand_paths + list_of_path
     pass
 
 def depth_first_search(origin_id, destination_id, map):
-
-    """
-     Depth First Search algorithm
-     Format of the parameter is:
-        Args:
-            origin_id (int): Starting station id
-            destination_id (int): Final station id
-            map (object of Map class): All the map information
-        Returns:
-            list_of_path[0] (Path Class): the route that goes from origin_id to destination_id
-    """
-
     llista = [Path(origin_id)]
     i = 0
     while llista[0].route[-1] != destination_id and len(llista) != 0:
@@ -98,32 +62,11 @@ def depth_first_search(origin_id, destination_id, map):
 
 
 def insert_breadth_first_search(expand_paths, list_of_path):
-    """
-        expand_paths is inserted to the list_of_path according to BREADTH FIRST SEARCH algorithm
-        Format of the parameter is:
-           Args:
-               expand_paths (LIST of Path Class): Expanded paths
-               list_of_path (LIST of Path Class): The paths to be visited
-           Returns:
-               list_of_path (LIST of Path Class): List of Paths where Expanded Path is inserted
-    """
-
     return list_of_path + expand_paths
     pass
 
 
 def breadth_first_search(origin_id, destination_id, map):
-    """
-     Breadth First Search algorithm
-     Format of the parameter is:
-        Args:
-            origin_id (int): Starting station id
-            destination_id (int): Final station id
-            map (object of Map class): All the map information
-        Returns:
-            list_of_path[0] (Path Class): The route that goes from origin_id to destination_id
-    """
-
     llista = [Path(origin_id)]
     i = 0
     while llista[0].route[-1] != destination_id and len(llista) != 0:
@@ -247,18 +190,7 @@ def insert_cost_f(expand_paths, list_of_path):
 
 
 def coord2station(coord, map):
-    """
-        From coordinates, it searches the closest station.
-        Format of the parameter is:
-        Args:
-            coord (list):  Two REAL values, which refer to the coordinates of a point in the city.
-            map (object of Map class): All the map information
-        Returns:
-            possible_origins (list): List of the Indexes of stations, which corresponds to the closest station
-    """
-
     possible_origins = list()
-
     min = euclidean_dist(coord, [map.stations[1]['x'], map.stations[1]['y']])
     #print('Mínim [1]', min)
     #print('Line: ', map.stations[1]['line'])
