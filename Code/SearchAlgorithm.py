@@ -1,7 +1,7 @@
 # This file contains all the required routines to make an A* search algorithm.
 #
-__authors__ = 'Pedro José Bauzá Ruiz'
-__group__ = ''
+__authors__ = '1491858'
+__group__ = 'DL.15'
 # _________________________________________________________________________________________
 # Intel.ligencia Artificial
 # Grau en Enginyeria Informatica
@@ -82,48 +82,61 @@ def breadth_first_search(origin_id, destination_id, map):
     pass
 
 
-def calculate_cost(expand_paths, map, type_preference=0):
-    """
-         Calculate the cost according to type preference
-         Format of the parameter is:
-            Args:
-                expand_paths (LIST of Paths Class): Expanded paths
-                map (object of Map class): All the map information
-                type_preference: INTEGER Value to indicate the preference selected:
-                                0 - Adjacency
-                                1 - minimum Time
-                                2 - minimum Distance
-                                3 - minimum Transfers
-            Returns:
-                expand_paths (LIST of Paths): Expanded path with updated cost
-    """
+def calculate_cost(expand_paths, map, type_preference):
+
+    if type_preference == 0:
+        for path in expand_paths:
+            path.update_g(1)
+    elif type_preference == 1:
+        for path in expand_paths:
+            path.update_g(map.connections[path.penultimate][path.last])
+    elif type_preference == 2:
+        for path in expand_paths:
+            if(map.stations[path.penultimate]['name'] != map.stations[path.last]['name'] ):
+                path.update_g(map.velocity[map.stations[path.penultimate]['line']] * map.connections[path.penultimate][path.last])
+    elif type_preference == 3:
+        for path in expand_paths:
+            if map.stations[path.penultimate]['line'] != map.stations[path.last]['line']:
+                path.update_g(1)
+
+    return expand_paths
     pass
 
 
 def insert_cost(expand_paths, list_of_path):
-    """
-        expand_paths is inserted to the list_of_path according to COST VALUE
-        Format of the parameter is:
-           Args:
-               expand_paths (LIST of Path Class): Expanded paths
-               list_of_path (LIST of Path Class): The paths to be visited
-           Returns:
-               list_of_path (LIST of Path Class): List of Paths where expanded_path is inserted according to cost
-    """
+    for path in expand_paths:
+        trobat = False
+        index = 0
+        if len(list_of_path) == 0:
+            list_of_path.append(path)
+        else:
+            while index < len(list_of_path) and trobat == False:
+                if path.g < list_of_path[index].g:
+                    list_of_path.insert(index, path)
+                    trobat = True
+                index+=1
+            if trobat == False:
+                list_of_path.append(path)
+
+    return list_of_path
+
     pass
 
 
-def uniform_cost_search(origin_id, destination_id, map, type_preference=0):
-    """
-     Uniform Cost Search algorithm
-     Format of the parameter is:
-        Args:
-            origin_id (int): Starting station id
-            destination_id (int): Final station id
-            map (object of Map class): All the map information
-        Returns:
-            list_of_path[0] (Path Class): The route that goes from origin_id to destination_id
-    """
+def uniform_cost_search(origin_id, destination_id, map, type_preference):
+    llista = [Path(origin_id)]
+    i = 0
+    while llista[0].route[-1] != destination_id and len(llista) != 0:
+        C = llista.pop(0)
+        E = expand(C, map)
+        E = remove_cycles(E)
+        E = calculate_cost(E, map, type_preference)
+        llista = insert_cost(E, llista)
+    if (llista is None):
+        return 'No hi ha solució'
+    else:
+        return llista[0]
+
     pass
 
 
@@ -192,28 +205,16 @@ def insert_cost_f(expand_paths, list_of_path):
 def coord2station(coord, map):
     possible_origins = list()
     min = euclidean_dist(coord, [map.stations[1]['x'], map.stations[1]['y']])
-    #print('Mínim [1]', min)
-    #print('Line: ', map.stations[1]['line'])
     possible_origins = [1]
-    for index in range(2, 14):
-        #print(index)
-        #print('Line: ', map.stations[index]['line'])
-        #print('Coordenades: ', [map.stations[index]['x'], map.stations[index]['y']])
+    max = len(map.stations)
+    for index in range(2, max):
         min_aux = euclidean_dist(coord, [map.stations[index]['x'], map.stations[index]['y']])
-        #print('Mínim: ', min)
         if min_aux < min:
             min = min_aux
-            #print('Mínim més petit: ', min)
             possible_origins = []
-            #possible_origins = [map.stations[index]['line']]
             possible_origins = [index]
-            #print('llista origens: ', possible_origins)
         elif min_aux == min:
-            #print('Mínim igual: ', min)
-            #possible_origins.append(map.stations[index]['line'])
             possible_origins.append(index)
-            #print('llista origens: ', possible_origins)
-    #print('Final: ', possible_origins)
     return possible_origins
     pass
 
